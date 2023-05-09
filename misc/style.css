@@ -95,7 +95,6 @@
 .rating-title {
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 10px rgb(255, 255, 255);
-    bottom: 0;
 }
 
 #Perfomance {
@@ -140,9 +139,9 @@
 }
 
 .center {
-    display: grid;
+    display: flex;
     justify-content: center;
-    padding: 200px;
+    padding-top: 200px;
 }
 .card {
     background-color: #36393f;
@@ -181,18 +180,19 @@
 }
 
 .card-contribut {
+    margin: 15px;
     /* PR BUAT CONTRIBUTOR CARD FLEX DI LAPTOP DAN KECILKAN WIDTH !!! */
 }
 
 .cards-group {
     /* PR BUAT CONTRIBUTOR CARD FLEX DI LAPTOP DAN KECILKAN WIDTH !!! */
     width: 1500px;
-    height: 270px;
+    height: 250px;
 }
 
 .contributor-title {
     padding-top: 5rem;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
@@ -231,11 +231,16 @@
     .form-group {
         width: 400px;
     }
-    
+
   }
 
 
-  
+  @media (max-width: 1400px) {
+    .cards-group {
+
+        height: 100%;
+    }
+  }
  
  
 
@@ -244,7 +249,7 @@
       font-size: 19px;
     }
     .perfom-title {
-        font-size: 2.7rem;
+        font-size: 2rem;
     }
     .perfom-slogan {
         font-size: small;

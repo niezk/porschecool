@@ -177,8 +177,8 @@
 <!-- Rating Start -->
 <section id="rating">
   <div class=" bg-secondary rating text-white center">
-    <h1 class="text-center rating-title">Car Rating Form</h1>
     <form>
+      <h1 class="text-center rating-title pb-3">Car Rating Form</h1>
       <div class="form-group ">
         <label for="car-model">Username :</label>
         <input type="text" class="form-control" id="car-model" placeholder="Enter car username">
@@ -240,7 +240,7 @@
     <div class="row">
       <!-- card contributor grup start -->
       <div class="cards-group mt-5 d-xl-flex text-center justify-content-center align-items-center container">
-      <div class="card-contribut mx-5">
+      <div class="card-contribut">
         <div class="card">
           <div class="card-header d-flex fw-bold text-white ">
             <h5 class="px-2">
@@ -258,7 +258,7 @@
         </div>
       </div>
       <!--  -->
-      <div class="card-contribut mx-5">
+      <div class="card-contribut">
         <div class="card">
           <div class="card-header d-flex fw-bold text-white ">
             <h5 class="px-2">
@@ -280,7 +280,7 @@
 
         <!-- card contributor grup start -->
       <div class="cards-group d-xl-flex text-center justify-content-center align-items-center container">
-        <div class="card-contribut mx-5">
+        <div class="card-contribut">
           <div class="card">
             <div class="card-header d-flex fw-bold text-white ">
               <h5 class="px-2">
@@ -298,7 +298,7 @@
           </div>
         </div>
         <!--  -->
-        <div class="card-contribut mx-5">
+        <div class="card-contribut">
           <div class="card">
             <div class="card-header d-flex fw-bold text-white ">
               <h5 class="px-2">
@@ -326,4 +326,10 @@
         feather.replace()
     </script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script>
+      const hide = () => {
+        const a = document.getElementById("offcanvasLeft")
+        a.classList.remove("show");
+      }
+    </script>
 </html>
