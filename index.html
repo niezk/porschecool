@@ -20,29 +20,27 @@
         </div>
       </nav>
     
-      <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+      <div class="offcanvas offcanvas-start bg-dark w-300" style="
+      width: 280px;" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
         <div class="offcanvas-header">
         </div>
         <div class="offcanvas-body">
           <ul id="navbar-item" class="nav flex-column">
             <h4 class="text-center text-warning mb-8">Menu</h4>
             <li class="nav-item">
+              <a onclick="hide()"  class="nav-link active" aria-current="page" href="#home"><i data-feather="home" class="icon mx-1"></i>Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"><i data-feather="home" class="icon mx-1"></i>Home</a>
+              <a onclick="hide()"  class="nav-link" href="#about"><i data-feather="help-circle" class="icon mx-1"></i>About</a>
             </li>
             <li class="nav-item">
-              <!-- help-circle -->
-              <a class="nav-link" href="#about"><i data-feather="help-circle" class="icon mx-1"></i>About</a>
+              <a onclick="hide()" class="nav-link" href="#Perfomance"><i data-feather="activity" class="icon mx-1"></i>Perfomance</a>
+            </li>
+            <li  class="nav-item">
+              <a  onclick="hide()" class="nav-link" href="#rating"><i data-feather="star" class="icon mx-1"></i>Ratings</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Perfomance"><i data-feather="activity" class="icon mx-1"></i>Perfomance</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#rating"><i data-feather="star" class="icon mx-1"></i>Ratings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contributors"><i data-feather="user" class="icon mx-1"></i>Contributor</a>
+              <a onclick="hide()"  class="nav-link" href="#contributors"><i data-feather="user" class="icon mx-1"></i>Contributor</a>
             </li>
           </ul>
           <ul class="sosmed">
@@ -288,4 +286,11 @@
         feather.replace()
     </script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script>
+    function hide() {
+      const a = document.getElementById("offcanvasLeft");
+      a.classList.remove("show");
+    }
+    </script>
+    <style></style>
 </html>

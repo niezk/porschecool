@@ -3,5 +3,14 @@
     "bootstrap": "^5.3.0-alpha3",
     "bootstrap-icons": "^1.10.5",
     "feather-icons": "^4.29.0"
-  }
+  },
+  "name": "styling",
+  "description": "��#\u0000 \u0000p\u0000o\u0000r\u0000s\u0000c\u0000h\u0000e\u0000c\u0000o\u0000o\u0000l\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }

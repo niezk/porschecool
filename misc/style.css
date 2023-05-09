@@ -32,10 +32,17 @@
     display: flex;
 }
 
+.w-300 {
+    width: 300;
+}
 
+.z--1 {
+    z-index: -99999;
+}
 
 #contributors {
-    height: 1000px;
+    height: 100%;
+    padding-bottom: 100px;
 }
 
 .hero-section {
@@ -245,5 +252,6 @@
     .cards-group {
         height: 100%;
     }
+
   }
   
