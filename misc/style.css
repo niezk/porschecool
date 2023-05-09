@@ -181,12 +181,14 @@
 
 .card-contribut {
     margin: 15px;
+    margin-top: 42px;
     /* PR BUAT CONTRIBUTOR CARD FLEX DI LAPTOP DAN KECILKAN WIDTH !!! */
 }
 
 .cards-group {
     /* PR BUAT CONTRIBUTOR CARD FLEX DI LAPTOP DAN KECILKAN WIDTH !!! */
     width: 1500px;
+    top: 0;
     height: 250px;
 }
 
